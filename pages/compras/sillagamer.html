@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="icon/png" href="/img/icono.png">
+
+    <!--Activación de Bootstrap-------------------------------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--------------------------------------------------------------------------------------->
+
+    <!--Activación AOS----------------------------------------------------------------------->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--------------------------------------------------------------------------------------->
+
+    <!--Activación de CSS-------------------------------------------------------------------->
+    <link rel="stylesheet" href="/css/styles.css">
+    <!--------------------------------------------------------------------------------------->
+
+    <!--SEO---------------------------------------------------------------------------------->
+    <meta name="description" content="Este es el apartado de nuestros productos, aqui podrás encontrar variedad de dispositivos electrónicos, accesorios y muebles gamer.">
+    <meta name="keywords" content="Tienda, gamer, accesorios, dispositivos, led, colores, luces, económicos, económico, oferta, descuento, rebaja, muebles, ofertas.">
+    <!--------------------------------------------------------------------------------------->
+
+    <!--LinksGooglefonts--------------------------------------------------------------------->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+    </style>
+
+    <!--Footer-->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+    </style>    
+    <!--------------------------------------------------------------------------------------->
+    <title>Tu tienda gamer | Pago</title>
+    <!--Sweet alert-------------------------------------------------------------------------->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</head>
+<body>
+
+<!--MenúHeader--------------------------------------------------------------------------->
+<header>
+  <nav class="navbar navbar-expand-lg" data-aos="fade-down" data-aos-delay="300">    
+    <div class="container-fluid">
+      <a href="/index.html"> 
+        <img src="/img/icono.png" alt="Logo" class="icono">
+    <div>
+      <a class="iracouder" href="https://www.coderhouse.com.uy/" target="_blank" data-aos="fade-left" data-aos-delay="1000">¿Buscas ser un desarrollador?</a>
+    </div>
+  <!--Celular-Tablet---------------------------------------------------------------->
+    <div>
+      <a class="iracoudermobile" href="https://www.coderhouse.com.uy/" target="_blank">¿Buscas ser un desarrollador?</a>
+    </div>
+  <!-------------------------------------------------------------------------------->
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/pages/nosotros.html">Sobre nosotros</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/pages/productos.html">Productos</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Otros</a>
+            <ul class="dropdown-menu">                 
+              <li><a class="dropdown-item" href="/pages/juegos.html">Juegos</a></li>
+              <li><a class="dropdown-item" href="/pages/galeriadefotos.html">Galeria de fotos</a></li>
+              <li><a class="dropdown-item" href="/pages/contacto.html">Contacto</a></li>
+            </ul>
+        </li>
+      </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+    </div>
+  </nav>
+</header>
+
+
+<body>
+  <main>
+    <section class="comprarnombre"><h1>Silla Gamer</h1></section>
+  </main>
+
+<div id="cuerpopadrecompra"></div>
+<div class="bodycomprahijo1">
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div id="carruselcompras" class="carousel-item active" data-bs-interval="10000">
+        <img src="/img/sillagamer/sillacomprar1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div id="carruselcompras" class="carousel-item" data-bs-interval="2000">
+        <img src="/img/sillagamer/sillacomprar2.webp" class="d-block w-100" alt="...">
+      </div>
+      <div id="carruselcompras" class="carousel-item">
+        <img src="/img/sillagamer/sillacomprar3.webp" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div id="botonesdescuento">
+    <button id="botondescuento70">Cupon 70% OFF</button>
+    <u id="resultadodescuento70"></u>
+      
+    <button id="botondescuento50">Cupon 50% OFF</button>
+    <u id="resultadodescuento50"></u>
+
+    <button id="botondescuento30">Cupon 30% OFF</button>
+    <u id="resultadodescuento30"></u>
+    
+<u id="preciodeproducto">20.000</u>
+<p id="simbolodinero">$</p>
+  </div>
+<button id="botonretorno">Restaurar precio</button>
+</div>
+
+
+<div class="bodycomprahijo2">
+<p id="plantillatitulo">Apartado de pago</p>
+<section class="plantillaformulario">
+
+<img id="tarjetacompra" src="/img/comprageneral/tarjeta.png" alt="">
+<img id="mercadopago" src="/img/comprageneral/mercadopago.png" alt="">
+<img id="paypal" src="/img/comprageneral/paypal.png" alt="">
+
+
+<div id="formulariocompra"> 
+  <p id="formulariocompra1">Nombre</p><input type="text" name="Nombre" id="casillanombre" placeholder = "Nombre">
+  <p id="formulariocompra2">Apellido</p><input type="text" name="Apellido" id="casillaapellido" placeholder = "Apellido">
+  <p id="formulariocompra3">Número de tarjeta</p><input type="number" name="Número de tarjeta" id="casillatarjeta" placeholder = "xxxx-xxxx-xxxx-xxxx">
+  <p id="formulariocompra4">CCV</p><input type="number" name="CCV" id="barraccv" placeholder = "xxx">
+  <p id="formulariocompra5">Fecha de vencimiento</p><input type="number" name="Fecha de vencimiento" id="casillavencimiento" placeholder = "xx/xx/xxxx">
+</div>
+
+<div id="terminospadre">
+  <p id="terminos">Esta información se enviará a una base de datos, la cuál será verificada si es es válida.</p>
+  <input id="terminosboton" type="checkbox">
+
+
+</div>
+<button id="comprarboton">Comprar</button>
+</div>
+
+<script src="/js/generalcompras.js"></script>
+<!--Footer------------------------------------------------------------------------------->
+<footer data-aos="fade-up" data-aos-delay="100">
+  <div class="textosfooter">
+    <h4>Ayuda</h4>
+      <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <div>
+          <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown">Otras formas de contacto</button>
+            <ul class="dropdown-menu">
+              <li><img class="redsociales" src="https://th.bing.com/th/id/R.c28776987931f59af7feffb633ed5d09?rik=277CVWC4gs4%2bWg&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f5%2fInstagram-Logo-PNG-180x180.png&ehk=pP7idzmrrfDnDMphxAB4J63lYPnD%2fIeASaEuDp%2bTdLQ%3d&risl=&pid=ImgRaw&r=0" alt="redsociales">
+                <img class="redsociales" src="https://th.bing.com/th/id/R.ae0c4f14b236b8569e7bfb82514818cd?rik=rMNXX7CMn7lZEg&pid=ImgRaw&r=0" alt="redsociales">
+                <img class="redsociales" src="https://www.swishschool.com/w/wp-content/uploads/2017/12/whatsapp-300x300.png" alt="redsociales">
+                <img class="redsociales" src="https://lh3.googleusercontent.com/pw/ACtC-3dpidwFelBBOa8jJCJbsLJvHGdLi2K5eV-or_CcRuiZseqSgzOkCYgsYz2poi-S4w0sL3Wpwmz-CX4WQyOFgz-kdY231fbxqM5Xx0ypniuAIPzdMG1ZbvjX9izmIHIFv7u5xUUYvLwjNScUx5SYCh0=s601-no?authuser=0" alt="redsociales">
+              </li>
+            </ul>
+        </div>
+      </div>
+    <h4>Copyright ©</h4>
+  </div>
+</footer>
+<!--------------------------------------------------------------------------------------->
+
+<!--Activación AOS----------------------------------------------------------------------->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!--Activación de Bootstrap-------------------------------------------------------------->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<!--------------------------------------------------------------------------------------->
+</body>
+</html>

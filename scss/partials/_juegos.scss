@@ -1,0 +1,434 @@
+/*--JUEGOS-----------------------------------------------------------------------------*/
+/*--Titulo-----------------------------------------------------------------------*/
+.juegosrecomendados{
+  margin-top: 155px;
+  text-align: center;
+  color: rgb(129, 129, 129);
+  border-bottom: solid 1px rgb(129, 129, 129);
+  font-family:Arial, Helvetica, sans-serif
+}
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .juegosrecomendados{
+    margin-top: 180px;
+  }
+}
+/*----------------------------------------*/
+
+/*--Tablet--------------------------------*/
+@media screen and (min-width:481px) and (max-width:991px){
+  .juegosrecomendados{
+    margin-top: 180px;
+  }
+}
+/*----------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+
+/*--Grids------------------------------------------------------------------------*/
+.gridpadre{
+  display: grid;
+  grid-template-areas:
+  "foto1 foto1 foto1 foto1 foto1"
+  "foto10 foto10 foto10 foto2 foto2"
+  "foto5 foto5 foto3 foto3 foto3"
+  "foto4 foto4 foto4 foto4 foto4"
+  "foto6 foto6 foto6 foto6 foto6"
+  "foto7 foto7 foto7 foto8 foto9";
+  margin: 5px;
+}
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .gridpadre{
+    display: grid;
+    grid-template-areas:
+    "foto1 foto1"
+    "foto10 foto10"
+    "foto2 foto2"
+    "foto3 foto3"
+    "foto4 foto4"
+    "foto5 foto5"
+    "foto6 foto6"
+    "foto7 foto7"
+    "foto8 foto8"
+    "foto9 foto9";
+  }
+}
+/*----------------------------------------*/
+
+/*--Tablet--------------------------------*/
+@media screen and (min-width:481px) and (max-width:991px){
+  .gridpadre{
+    display: grid;
+    grid-template-areas:
+    "foto1 foto1 foto1 foto1 foto1"
+    "foto10 foto10 foto10 foto2 foto2"
+    "foto5 foto5 foto3 foto3 foto3"
+    "foto4 foto4 foto4 foto4 foto4"
+    "foto6 foto6 foto6 foto6 foto6"
+    "foto7 foto7 foto7 foto7 foto7"
+    "foto8 foto8 foto9 foto9 foto9";
+    margin: 5px;
+  }
+}    
+/*----------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+
+/*--Imagenes---------------------------------------------------------------------*/
+.uno, .dos, .tres, .cuatro, .cinco, .seis, .siete, .ocho, .nueve, .diez{
+  margin: 5px;
+  max-width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*--Imagen1-------------------------------*/
+.uno{
+  background-image:url(../img/juego1.jpg);
+  grid-area: foto1;
+}
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .uno{
+    background-size: 100% 100%;
+  }
+}
+/*----------------------------------------*/
+
+.cod{
+  text-align: center;
+  margin-top: 130px;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 200%;
+  background-color: rgba(0, 0, 0, 0.474);
+}
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .cod{
+    margin-top: 110px;
+  }
+}    
+/*----------------------------------------*/
+/*----------------------------------------*/
+
+/*--Imagen2-------------------------------*/
+.dos{
+  background-image:url(../img/juego2.jfif);
+  grid-area: foto2;
+}
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .dos{
+  background-size: 100% 100%;
+  }
+}
+/*----------------------------------------*/
+.minecraft{
+  text-align: center;
+  margin-top: 130px;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 200%;
+  background-color: rgba(0, 0, 0, 0.474);
+}
+/*----------------------------------------*/
+/*----------------------------------------*/
+
+/*--Imagen3-------------------------------*/
+.tres{
+  background-image:url(../img/juego3.jpg);
+  grid-area: foto3;
+}
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .tres{
+    background-size: 100% 100%;
+  }
+}
+/*----------------------------------------*/
+.elder{
+  text-align: center;
+  margin-top: 130px;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 200%;
+  background-color: rgba(0, 0, 0, 0.474);
+}
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .elder{
+    margin-top: 110px;
+  }
+} 
+/*----------------------------------------*/
+/*----------------------------------------*/
+
+/*--Imagen4-------------------------------*/
+.cuatro{
+  background-image:url(../img/juego4.jfif);
+  grid-area: foto4;
+}
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .cuatro{
+    background-size: 100% 100%;
+  }
+}
+/*----------------------------------------*/
+.needforspeed{
+  text-align: center;
+  margin-top: 130px;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 200%;
+  background-color: rgba(0, 0, 0, 0.474);
+}
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .needforspeed{
+    margin-top: 90px;
+  }
+} 
+/*----------------------------------------*/
+/*----------------------------------------*/
+
+/*--Imagen5-------------------------------*/
+.cinco{
+  background-image:url(../img/juego5.jpg);
+  grid-area: foto5;
+}
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .cinco{
+  background-size: 100% 100%;
+  }
+}
+/*----------------------------------------*/
+
+.metro{
+  text-align: center;
+  margin-top: 130px;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 200%;
+  background-color: rgba(0, 0, 0, 0.474);
+}
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .metro{
+    margin-top: 110px;
+  }
+} 
+/*----------------------------------------*/
+/*----------------------------------------*/
+
+/*--Imagen6-------------------------------*/
+.seis{
+  background-image:url(../img/juego6.jfif);
+  grid-area: foto6;
+    
+}
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .seis{
+    background-size: 100% 100%;
+  }
+}
+/*----------------------------------------*/
+.fornite{
+  text-align: center;
+  margin-top: 130px;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 200%;
+  background-color: rgba(0, 0, 0, 0.474);
+}
+/*----------------------------------------*/
+/*----------------------------------------*/
+
+/*--Imagen7-------------------------------*/
+.siete{
+  background-image:url(../img/juego7.webp);
+  grid-area: foto7;
+   
+}
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .siete{
+    background-size: 100% 100%;
+  }
+}
+/*----------------------------------------*/
+
+/*--Tablet--------------------------------*/
+@media screen and (min-width:481px) and (max-width:991px){
+  .siete{
+    background-size: 100% 100%;
+  }
+}    
+/*----------------------------------------*/
+.gtasa{
+  text-align: center;
+  margin-top: 130px;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 80%;
+  background-color: rgba(0, 0, 0, 0.474);
+}
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .gtasa{
+    margin-top: 110px;
+    font-size: 200%;
+  }
+}
+/*----------------------------------------*/
+
+/*--Tablet--------------------------------*/
+@media screen and (min-width:481px) and (max-width:991px){
+  .gtasa{
+    font-size: 200%;
+    margin-top: 130px;
+  }
+}    
+/*----------------------------------------*/
+/*----------------------------------------*/
+
+/*--Imagen8-------------------------------*/
+.ocho{
+  background-image:url(../img/juego8.jfif);
+  grid-area: foto8; 
+}
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .ocho{
+    background-size: 100% 100%;
+  }
+}
+/*----------------------------------------*/
+
+/*--Tablet--------------------------------*/
+@media screen and (min-width:481px) and (max-width:991px){
+  .ocho{
+    background-size: 100% 100%;
+  }
+}    
+/*----------------------------------------*/
+.gtavc{
+  text-align: center;
+  margin-top: 130px;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 80%;
+  background-color: rgba(0, 0, 0, 0.474);
+}
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .gtavc{
+    font-size: 200%;
+  }
+}
+/*----------------------------------------*/
+
+/*--Tablet--------------------------------*/
+@media screen and (min-width:481px) and (max-width:991px){
+  .gtavc{
+    font-size: 200%;
+  }
+}    
+/*----------------------------------------*/
+/*----------------------------------------*/
+
+/*--Imagen9-------------------------------*/
+.nueve{
+  background-image:url(../img/juego9.jfif);
+  grid-area: foto9; 
+}
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .nueve{
+    background-size: 100% 100%;
+  }
+}
+/*----------------------------------------*/
+
+/*--Tablet--------------------------------*/
+@media screen and (min-width:481px) and (max-width:991px){
+  .nueve{
+    background-size: 100% 100%;
+  }
+}    
+/*----------------------------------------*/
+.gta5{
+  text-align: center;
+  margin-top: 130px;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 80%;
+  background-color: rgba(0, 0, 0, 0.474);
+}
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .gta5{
+    font-size: 200%;
+  }
+}
+/*----------------------------------------*/
+
+/*--Tablet--------------------------------*/
+@media screen and (min-width:481px) and (max-width:991px){
+  .gta5{
+    font-size: 200%;
+  }
+}    
+/*----------------------------------------*/
+/*----------------------------------------*/
+
+/*--Imagen10------------------------------*/
+.diez{
+  background-image:url(../img/juego10.jfif);
+  grid-area: foto10;
+}
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .diez{
+    background-size: 100% 100%;
+  }
+}
+/*----------------------------------------*/
+.dr{
+  text-align: center;
+  margin-top: 130px;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 200%;
+  background-color: rgba(0, 0, 0, 0.474);
+}
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .dr{
+    margin-top: 110px;
+  }
+} 
+/*----------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/

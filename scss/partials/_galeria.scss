@@ -1,0 +1,45 @@
+/*--GALERIA----------------------------------------------------------------------------*/
+/*--Titulo-----------------------------------------------------------------------*/
+.nombregaleriafotos{
+  margin-top: 155px;
+  text-align: center;
+  color: rgb(129, 129, 129);
+  border-bottom: solid 1px rgb(129, 129, 129);
+  font-family:Arial, Helvetica, sans-serif
+}
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .nombregaleriafotos{
+    margin-top: 180px;
+  }   
+}
+/*----------------------------------------*/
+
+/*--Tablet--------------------------------*/
+@media screen and (min-width:481px) and (max-width:991px){
+  .nombregaleriafotos{
+    margin-top: 180px;
+  }   
+}
+/*----------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+
+/*--Fotos------------------------------------------------------------------------*/
+.galeriafotos{
+  display: flex;
+  margin: 20px; 
+}
+
+.fondodepantalla{
+  width: 100%;
+}
+
+.padregaleriafotos{
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/*-------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------*/

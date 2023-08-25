@@ -1,0 +1,177 @@
+#botonsilla a{
+  color: rgb(173, 0, 150);
+}
+
+.comprarnombre{
+  margin-top: 180px;
+  text-align: center;
+  color: rgb(181, 181, 181);
+  background-image: linear-gradient(rgb(81, 81, 81), rgb(5, 20, 116));
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#botonesdescuento{
+display: flex;
+margin-left: 5px;
+justify-content: space-around;
+cursor: pointer;
+}
+
+#botondescuento70, #botondescuento50, #botondescuento30{
+margin-top: 10px;
+border: none;
+background-image: linear-gradient(to left, rgb(18, 0, 90), rgb(96, 0, 95));
+color: white;
+cursor: pointer;
+}
+
+#resultadodescuento70,#resultadodescuento50, #resultadodescuento30{
+  color: rgb(0, 141, 0);
+  font-size: 50px;
+  margin-top: 50px;
+  margin-left: 5px;
+  position: absolute;
+  
+}
+
+#preciodeproducto{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 5px;
+  color: rgb(0, 141, 0);
+  font-size: 50px;
+}
+
+#simbolodinero{
+  position: absolute;
+  margin-top: 50px;
+  margin-right: 160px;
+  color: green;
+  font-size: 50px;
+}
+
+#botonretorno{
+  margin-top: 100px;
+  margin-left: 165px;
+  border: none;
+  background-image: linear-gradient(to left, rgb(17, 0, 100), rgb(255, 255, 255), rgb(18, 0, 178));
+}
+
+#carruselcompras{
+  margin-top: 60px;
+}
+
+.carousel-control-next{
+  margin-top: 50px;
+}
+
+.carousel-control-prev{
+  margin-top: 50px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color: black;
+}
+
+
+#formulariocompra{
+  padding: 20px;
+  margin-left: 100px;
+}
+
+#formulariocompra1, #formulariocompra2, #formulariocompra3, #formulariocompra4, #formulariocompra5{
+  color: rgb(0, 0, 0);
+  margin-bottom:0px;
+  margin-top: 20px;
+}
+
+#comprarboton{
+  margin-left: 45%;
+  margin-top: 10px;
+}
+
+#terminospadre{
+  background-color: rgba(0, 0, 0, 0.334);
+}
+
+#terminos{
+  color: black;
+  margin-left: 70px;
+  width: 300px;
+  height: 15px;
+}
+
+#terminosboton{
+  margin-top: 20px;
+  margin-left: 210px;
+}
+
+#comprarboton{
+  margin-left: 180px;
+  color: rgb(255, 255, 255);
+  background-color: blue;
+  border: none;
+}
+
+
+#plantillatitulo{
+  border: solid 3px rgba(118, 53, 179, 0.512);
+  width: 285px;
+  color: rgb(128, 128, 128);
+  margin-left: 390px;
+  font-size: 35px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.plantillaformulario{
+  margin: auto;
+  width: 40%;
+  height: 65%;
+  background-color: rgba(255, 255, 255, 0.449);
+  box-shadow: rgb(247, 0, 255) 1px 1px 50px 20px;
+}
+
+#barraccv{
+  width: 50px;
+}
+
+#tarjetacompra{
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 500px;
+  width: 5%;
+}
+
+#mercadopago{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 480px;
+  width: 8%;
+}
+
+#paypal{
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 500px;
+  width: 5%;
+}
+
+
+.cuerpopadrecompra{
+  height: 100px;
+  width: 100px;
+}
+
+.bodycomprahijo1{
+  background-color: rgba(0, 0, 0, 0);
+  width: 30%;
+  float: left;
+}
+
+.bodycomprahijo2{
+  background-color: rgba(0, 0, 0, 0);
+  height: 800px;
+  width: 70%;
+  float: right;
+}

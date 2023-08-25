@@ -1,0 +1,110 @@
+/*--PRODUCTOS---------------------------------------------------------------------------*/
+/*--Titulo-----------------------------------------------------------------------*/
+.nuestrosproductos{
+  margin-top: 155px;
+  text-align: center;
+  color: rgb(129, 129, 129);
+  border-bottom: solid 1px rgb(129, 129, 129);
+  font-family:Arial, Helvetica, sans-serif
+}
+/*----------------------------------------*/
+
+/*--Celular-------------------------------*/
+@media screen and (max-width: 480px){
+  .nuestrosproductos{
+  margin-top: 180px;
+  } 
+}
+/*----------------------------------------*/
+
+/*--Tablet--------------------------------*/
+@media screen and (min-width:481px) and (max-width:991px){
+  .nuestrosproductos{
+    margin-top: 180px;
+  } 
+}
+/*----------------------------------------*/
+/*-------------------------------------------------------------------------------*/
+
+/*--Cards------------------------------------------------------------------------*/
+.padrecardproductos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;  
+}
+
+.cardproductos{
+  margin: 20px;
+  background-image: url(../img/cardproductos.jpg);
+  border: solid 1px rgba(255, 255, 255, 0.414);
+  padding: 5px;
+  align-items: center;
+  width: 300px;
+  height: 430px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardproductos:hover{
+  transform: scale(1.1,1.1);
+}
+/*--celular--------------------------------*/
+@media screen and (max-width: 480px){
+.cardproductos:hover{
+  transform: none;
+  } 
+}
+/*----------------------------------------*/
+
+/*--Tablet--------------------------------*/
+@media screen and (min-width:480px) and (max-width:991px){
+  .cardproductos:hover{
+    transform: none;
+  } 
+}
+/*----------------------------------------*/
+
+.articuloproductos{
+  width: 285px;
+  height: 285px;
+}
+
+.oferta{
+  position: absolute;
+  top: 0;
+  left: 265px;
+  width: 70px;
+}
+
+.productos{
+  display: flex;  
+}
+
+.cardproductos h3{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 5px;
+  color: black;
+}
+
+.cardproductos h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 1px;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.cardproductos button{
+  position: absolute;
+  margin-top: 385px;
+  text-shadow: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  padding: 5px 10px;
+  background-image: url(../img/agregaralcarrito.gif);    
+}
+/*-------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------*/

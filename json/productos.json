@@ -1,0 +1,85 @@
+[
+    {
+        "id":"1",
+        "nombre":"Silla gamer",
+        "precio": "$20.000",
+        "tipo-de-producto": "comodidad"
+    },
+
+    {
+        "id":"2",
+        "nombre":"Teclado gamer",
+        "precio": "$5.000",
+        "tipo-de-producto": "tecnología"
+    },
+
+    {
+        "id":"3",
+        "nombre":"Mouse gamer",
+        "precio": "$10.000",
+        "tipo-de-producto": "tecnología"
+    },
+
+    {
+        "id":"4",
+        "nombre":"Auriculares gamer",
+        "precio": "$15.000",
+        "tipo-de-producto": "tecnología"
+    },
+
+    {
+        "id":"5",
+        "nombre":"Laptop",
+        "precio": "$50.000",
+        "tipo-de-producto": "tecnología"
+    },
+
+    {
+        "id":"6",
+        "nombre":"Gabinete gamer",
+        "precio": "$35.000",
+        "tipo-de-producto": "tecnología"
+    },
+
+    {
+        "id":"7",
+        "nombre":"Joystick PS4",
+        "precio": "$8.000",
+        "tipo-de-producto": "tecnología"
+    },
+
+    {
+        "id":"8",
+        "nombre":"Celular",
+        "precio": "$18.000",
+        "tipo-de-producto": "tecnología"
+    },
+
+    {
+        "id":"9",
+        "nombre":"Play Station 4",
+        "precio": "$70.000",
+        "tipo-de-producto": "tecnología"
+    },
+
+    {
+        "id":"10",
+        "nombre":"Mousepad",
+        "precio": "$2.000",
+        "tipo-de-producto": "tecnología"
+    },
+
+    {
+        "id":"11",
+        "nombre":"Leds RGB",
+        "precio": "$3.000",
+        "tipo-de-producto": "decoración"
+    },
+
+    {
+        "id":"12",
+        "nombre":"Micfrófono",
+        "precio": "$6.000",
+        "tipo-de-producto": "tecnología"
+    }
+]
